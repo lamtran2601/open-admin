@@ -1,18 +1,12 @@
 import { Component, Vue } from 'vue-property-decorator';
 import WithRender from './Home.html';
 import './Home.scss';
-import { Navigation } from '@/modules/Navigation';
-import { Header } from '@/modules/Header';
-import { Footer } from '@/modules/Footer';
-import { Main } from '@/modules/Main';
+import { Layout } from '@/modules/Layout';
 
 @WithRender
 @Component({
   components: {
-    Navigation,
-    Header,
-    Main,
-    Footer,
+    Layout,
   },
 })
 export class Home extends Vue {
