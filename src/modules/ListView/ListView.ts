@@ -21,7 +21,7 @@ export class ListView extends Vue {
       address: 'No. 189, Grove St, Los Angeles',
     };
     return {
-      tableData: Array(20).fill(item),
+      tableData: Array(30).fill(item),
     };
   }
 }
