@@ -1,11 +1,10 @@
 import { Component, Vue } from 'vue-property-decorator';
 import WithRender from './Layout.html';
 import './Layout.scss';
-import { Navigation } from './Navigation';
-import { Header } from './Header';
-import { Main } from './Main';
-import { Footer } from './Footer';
-
+import { Navigation } from '@/modules/Navigation';
+import { Header } from '@/modules/Header';
+import { Footer } from '@/modules/Footer';
+import { Main } from '@/modules/Main';
 
 @WithRender
 @Component({

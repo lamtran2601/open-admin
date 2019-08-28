@@ -1,12 +1,12 @@
 import { Component, Vue } from 'vue-property-decorator';
 import WithRender from './App.html';
 import './styles/App.scss';
-import { Home } from './views/Home/Home';
+import { Layout } from './views/Layout';
 
 @WithRender
 @Component({
   components: {
-    Home,
+    Layout,
   },
 })
 export class App extends Vue {

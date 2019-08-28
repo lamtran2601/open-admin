@@ -1,6 +1,6 @@
 import { Component, Vue } from 'vue-property-decorator';
-import WithRender from './Main.html';
-import './Main.scss';
+import WithRender from './ListView.html';
+import './ListView.scss';
 import { SubHeader } from '../SubHeader';
 import { Table } from '../Table';
 import { SubFooter } from '../SubFooter';
@@ -13,7 +13,7 @@ import { SubFooter } from '../SubFooter';
     SubFooter,
   },
 })
-export class Main extends Vue {
+export class ListView extends Vue {
   public data() {
     const item = {
       date: '2016-05-02',
